@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BMI</title>
+        <meta charset="utf-8" />
+        
+    </head>
+    <body>
+        <main>
+            <div>
+                <h1>Body Mass Index Calculator</h1>
+            </div>
+            <div id="container">
+                
+                <p>Your Height:</p><br>
+                <div>
+                    <label id="indent" for="heightF">Feet:</label>
+                    <input type="text" id="heightF" name="heightF"><br><br>
+                    <label for="heightI">Inch(es):</label>
+                    <input type="text" id="heightI" name="heightI"><br><br>
+                </div>
+                <p>Your Weight:</p><br>
+                <div>
+                    <label for="weight">Pounds:</label>
+                    <input type="text" id="weight" name="weight"><br><br>
+                    <button id="calculate" onclick="calculateBMI">Calculate</button>
+                </div>
+            </div>
+            <h6>IT330, The University of Kansas, Edwards Campus</h6>
+            <div id="result"></div>
+            <table class="center">
+                <tr>
+                    <td>Underweight</td>
+                    <td> &lt; 18.5</td>
+                </tr>
+                <tr>
+                    <td>Normal weight</td>
+                    <td>  18.5 - 24.9</td>
+                </tr>
+                <tr>
+                    <td>Overweight</td>
+                    <td>  25 - 29.9</td>
+                </tr>
+                <tr>
+                    <td>Obesity</td>
+                    <td> 30 or greater</td>
+                </tr>
+            </table>
+        </main>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="bmi.js"></script>
+    </body>
+    </html>
