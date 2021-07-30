@@ -1,0 +1,36 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box ;
+ } 
+ 
+ 	#container td:nth-child(2) {
+		color: #D90000;
+	}
+	#container tr:nth-child(3n+1)>td:last-child {
+ 		background-color: #FFFF4C ;
+	}
+	tr:hover td {
+		background-color: #BFEFFF;
+	}
+ 	#container{
+		border: 1px solid black;
+		padding-top: 20px; 
+		padding-bottom: 20px;
+		width: 500px;
+		background-color: #CCC;
+		margin: 10px auto;
+	}
+	table {
+		border: solid 1pt black;
+		border-collapse: collapse;
+		background-color: white;
+		margin: 10px auto;
+	} 
+	#container th, td {
+		border: solid 1pt black;
+	} 	
+	
+	
+ 
+	
+
+		
