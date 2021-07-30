@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+body {
+	font-size: 14px;
+}
+#container {
+    width: 75%;
+    border: 1px solid #000;    
+	background: #99ffe5;
+	text-align: center;
+	color: black;
+    margin: 5px auto; /* center the container inside of browswer's viewport */
+}
+#container header{
+	font-size: 2em;
+}
+main {
+	background: silver;
+	font-family: "Times New Roman";
+	font-size: 1.5em;
+	text-align: left;
+	padding: 10px;
+}
+#art1 {color: #ff2626}
+#art2 {color: #265cff}
